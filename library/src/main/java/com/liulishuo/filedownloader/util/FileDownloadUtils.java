@@ -600,6 +600,12 @@ public class FileDownloadUtils {
     public static long findContentLength(final int id, FileDownloadConnection connection) {
         long contentLength = convertContentLengthString(
                 connection.getResponseHeaderField("Content-Length"));
+
+        if (contentLength == -1) {
+            contentLength = convertContentLengthString(
+                    connection.getResponseHeaderField("x-goog-stored-content-length"));
+        }
+
         final String transferEncoding = connection.getResponseHeaderField("Transfer-Encoding");
 
         if (contentLength < 0) {

@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FileDownloader.iml" filepath="$PROJECT_DIR$/FileDownloader.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FileDownloader.iml" filepath="$PROJECT_DIR$/.idea/modules/FileDownloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo/FileDownloader.demo.iml" filepath="$PROJECT_DIR$/.idea/modules/demo/FileDownloader.demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo/FileDownloader.demo.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/demo/FileDownloader.demo.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo/FileDownloader.demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo/FileDownloader.demo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo/FileDownloader.demo.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/demo/FileDownloader.demo.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/FileDownloader.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/FileDownloader.library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/FileDownloader.library.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/FileDownloader.library.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/FileDownloader.library.main.iml" filepath="$PROJECT_DIR$/.idea/modules/library/FileDownloader.library.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/FileDownloader.library.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/FileDownloader.library.unitTest.iml" />
     </modules>
   </component>
 </project>
